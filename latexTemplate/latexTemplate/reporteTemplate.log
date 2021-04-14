@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.6)  14 APR 2021 14:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.6)  14 APR 2021 14:09
 entering extended mode
 **./reporteTemplate.tex
 (reporteTemplate.tex
@@ -997,4 +997,165 @@ LaTeX Info: Redefining \nameref on input line 47.
 
 
 (C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii
-[Loading MPS to PDF converte
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count318
+\scratchdimen=\dimen262
+\scratchbox=\box60
+\nofMPsegments=\count319
+\nofMParguments=\count320
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count321
+\MPscratchDim=\dimen263
+\MPnumerator=\count322
+\makeMPintoPDFobject=\count323
+\everyMPtoPDFconversion=\toks44
+) (C:\Program Files\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot twoside heightrounded 
+* h-part:(L,W,R)=(54.0pt, 506.295pt, 54.0pt)
+* v-part:(T,H,B)=(57.0pt, 664.96999pt, 73.0pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=506.295pt
+* \textheight=626.0pt
+* \oddsidemargin=-18.26999pt
+* \evensidemargin=-18.26999pt
+* \topmargin=-15.26999pt
+* \headheight=13.0pt
+* \headsep=14.0pt
+* \topskip=10.0pt
+* \footskip=12.0pt
+* \marginparwidth=24.0pt
+* \marginparsep=11.0pt
+* \columnsep=24.0pt
+* \skip\footins=7.0pt plus 11.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@mv@tabular=\count324
+\c@mv@boldtabular=\count325
+(C:\Program Files\MiKTeX 2.9\tex/latex/upquote\upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Info: Redefining \. on input line 47.
+LaTeX Info: Redefining \% on input line 47.
+\c@lstlisting=\count326
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 8
+6.
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/lm\t1lmss.fd
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmss' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <17.28> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 86.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 86.
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+(C:\Program Files\MiKTeX 2.9\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 8
+6.
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 86.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6.2> on input line 86.
+Missing character: There is no ¹ in font lmsy9!
+Missing character: There is no ¹ in font lmsy7!
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 116.
+Missing character: There is no ¹ in font lmsy9!
+ [1.1{C:/Users/XP/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+]
+
+LaTeX Warning: Reference `label' on page 2 undefined on input line 158.
+
+<img/dispBoxplot.png, id=74, 481.8pt x 481.8pt>
+File: img/dispBoxplot.png Graphic file (type png)
+<use img/dispBoxplot.png>
+Package pdftex.def Info: img/dispBoxplot.png  used on input line 188.
+(pdftex.def)             Requested size: 168.8025pt x 168.8016pt.
+
+Class acmart Warning: A possible image without description on input line 191.
+
+(reporteTemplate.bbl
+
+Package natbib Warning: Empty `thebibliography' environment on input line 40.
+
+) (C:\Program Files\MiKTeX 2.9\tex/generic/stringenc\se-pdfdoc.def
+File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
+)
+(C:\Program Files\MiKTeX 2.9\tex/generic/stringenc\se-utf8.def
+File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
+)
+
+Class acmart Warning: Some images may lack descriptions.
+
+[2.2 <./img/dispBoxplot.png>] (reporteTemplate.aux
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
+)
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `reporteTemplate.out' has not changed.
+(rerunfilecheck)             Checksum: AE4FDFEA07CE0C9C7A79BC6D9AF34CE2;858.
+ ) 
+Here is how much of TeX's memory you used:
+ 22357 strings out of 479323
+ 333295 string characters out of 2864721
+ 775243 words of memory out of 3000000
+ 39020 multiletter control sequences out of 15000+200000
+ 505128 words of font info for 168 fonts, out of 3000000 for 9000
+ 1302 hyphenation exceptions out of 8191
+ 96i,11n,131p,854b,1066s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
+iKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/lm/lmb10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/l
+mr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/lm/lmri7.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/lm/lmri8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/lm/lmri9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss8.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on reporteTemplate.pdf (2 pages, 329809 bytes).
+PDF statistics:
+ 135 PDF objects out of 1000 (max. 8388607)
+ 24 named destinations out of 1000 (max. 500000)
+ 51286 words of extra memory for PDF output out of 51595 (max. 10000000)
+
