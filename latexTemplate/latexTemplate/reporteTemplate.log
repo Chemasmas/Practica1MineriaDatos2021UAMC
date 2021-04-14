@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.6)  11 APR 2021 09:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.6)  14 APR 2021 01:52
 entering extended mode
 **./reporteTemplate.tex
 (reporteTemplate.tex
@@ -694,6 +694,41 @@ nuxLibertineT-TLF.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 3009.
 )
+(C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.sty
+Package: babel 2021/02/22 3.54 The Babel package
+
+(C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.def
+File: babel.def 2021/02/22 3.54 Babel common definitions
+\babel@savecnt=\count303
+\U@D=\dimen192
+\l@babelnohyphens=\language81
+
+(C:\Program Files\MiKTeX 2.9\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read3
+)
+\bbl@dirlevel=\count304
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Program Files\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Program Files\MiKTeX 2.9\tex/latex/babel-spanish\spanish.ldf
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+\es@quottoks=\toks37
+\es@quotdepth=\count305
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+))
+(C:\Program Files\MiKTeX 2.9\tex/latex/base\inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks38
+\inpenc@posthook=\toks39
+)
 (C:\Program Files\MiKTeX 2.9\tex/latex/lm\lmodern.sty
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -747,17 +782,62 @@ t line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  T1/zi4/b/n --> OT1/lmtt/m/n on input line 38.
 )
-Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 40.
+(C:\Program Files\MiKTeX 2.9\tex/latex/latex-tools\tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 
-\c@theorem=\count303
+(C:\Program Files\MiKTeX 2.9\tex/latex/latex-tools\array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen193
+\ar@mcellbox=\box55
+\extrarowheight=\dimen194
+\NC@list=\toks40
+\extratabsurround=\skip75
+\backup@length=\skip76
+\ar@cellbox=\box56
+)
+\TX@col@width=\dimen195
+\TX@old@table=\dimen196
+\TX@old@col=\dimen197
+\TX@target=\dimen198
+\TX@delta=\dimen256
+\TX@cols=\count306
+\TX@ftn=\toks41
+)
+(C:\Program Files\MiKTeX 2.9\tex/latex/listings\listings.sty
+\lst@mode=\count307
+\lst@gtempboxa=\box57
+\lst@token=\toks42
+\lst@length=\count308
+\lst@currlwidth=\dimen257
+\lst@column=\count309
+\lst@pos=\count310
+\lst@lostspace=\dimen258
+\lst@width=\dimen259
+\lst@newlines=\count311
+\lst@lineno=\count312
+\lst@maxwidth=\dimen260
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count313
+\lst@skipnumbers=\count314
+\lst@framebox=\box58
+)
+(C:\Program Files\MiKTeX 2.9\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 47.
+
+\c@theorem=\count315
 
 (C:\Program Files\MiKTeX 2.9\tex/latex/preprint\balance.sty
 Package: balance 1999/02/23 4.3 (PWD)
-\oldvsize=\dimen192
+\oldvsize=\dimen261
 )
 Excluding comment 'screenonly' Include comment 'printonly'
 Include comment 'anonsuppress'
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 40
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 47
 .
 
 (C:\Program Files\MiKTeX 2.9\tex/latex/lm\t1lmr.fd
@@ -765,124 +845,130 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (C:\Program Files\MiKTeX 2.9\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-03-02 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count304
-\l__pdf_internal_box=\box55
+\l__color_backend_stack_int=\count316
+\l__pdf_internal_box=\box59
 )
-(reporteTemplate.aux)
+(reporteTemplate.aux
+LaTeX Info: Redefining \. on input line 32.
+LaTeX Info: Redefining \% on input line 32.
+)
 \openout1 = `reporteTemplate.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 40.
+LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 47.
 LaTeX Font Info:    Trying to load font information for OML+nxlmi on input line
- 40.
+ 47.
  (C:\Program Files\MiKTeX 2.9\tex/latex/newtx\omlnxlmi.fd
 File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 47.
 LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-40.
+47.
 (C:\Program Files\MiKTeX 2.9\tex/latex/newtx\untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 47.
 LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 40.
+ 47.
 
 (C:\Program Files\MiKTeX 2.9\tex/latex/newtx\lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 47.
 LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 40.
+e 47.
 
 (C:\Program Files\MiKTeX 2.9\tex/latex/newtx\lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    ... okay on input line 47.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
-0.
+7.
 
 (C:\Program Files\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )<<ot1.cmap>>
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
-0.
+7.
 
 (C:\Program Files\MiKTeX 2.9\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )<<oml.cmap>>
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-40.
+47.
 
 (C:\Program Files\MiKTeX 2.9\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )<<oms.cmap>>
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-40.
+47.
 
 (C:\Program Files\MiKTeX 2.9\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.3> on input line 40.
+(Font)              <7.3> on input line 47.
 <<omx.cmap>>
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.5> on input line 40.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
+(Font)              <5.5> on input line 47.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 47.
 
 
 (C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 47.
 
 
 (C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
-40.
+47.
 
 (C:\Program Files\MiKTeX 2.9\tex/latex/newtx\untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
-40.
+47.
 
 (C:\Program Files\MiKTeX 2.9\tex/latex/newtx\untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-40.
+47.
 
 (C:\Program Files\MiKTeX 2.9\tex/latex/newtx\untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 Missing character: There is no ¹ in font lmsy7!
-LaTeX Info: Redefining \microtypecontext on input line 40.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 47.
+Missing character: There is no ¹ in font lmsy9!
+LaTeX Info: Redefining \microtypecontext on input line 47.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 40.
+LaTeX Info: Redefining \showhyphens on input line 47.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -891,7 +977,7 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-Package hyperref Info: Link coloring OFF on input line 40.
+Package hyperref Info: Link coloring OFF on input line 47.
 
 (C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -899,11 +985,11 @@ Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 (C:\Program Files\MiKTeX 2.9\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count305
+\c@section@level=\count317
 )
-LaTeX Info: Redefining \ref on input line 40.
-LaTeX Info: Redefining \pageref on input line 40.
-LaTeX Info: Redefining \nameref on input line 40.
+LaTeX Info: Redefining \ref on input line 47.
+LaTeX Info: Redefining \pageref on input line 47.
+LaTeX Info: Redefining \nameref on input line 47.
 
 (reporteTemplate.out) (reporteTemplate.out)
 \@outlinefile=\write4
@@ -912,17 +998,17 @@ LaTeX Info: Redefining \nameref on input line 40.
 
 (C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count306
-\scratchdimen=\dimen193
-\scratchbox=\box56
-\nofMPsegments=\count307
-\nofMParguments=\count308
-\everyMPshowfont=\toks37
-\MPscratchCnt=\count309
-\MPscratchDim=\dimen194
-\MPnumerator=\count310
-\makeMPintoPDFobject=\count311
-\everyMPtoPDFconversion=\toks38
+\scratchcounter=\count318
+\scratchdimen=\dimen262
+\scratchbox=\box60
+\nofMPsegments=\count319
+\nofMParguments=\count320
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count321
+\MPscratchDim=\dimen263
+\MPnumerator=\count322
+\makeMPintoPDFobject=\count323
+\everyMPtoPDFconversion=\toks44
 ) (C:\Program Files\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -962,15 +1048,19 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@mv@tabular=\count312
-\c@mv@boldtabular=\count313
+\c@mv@tabular=\count324
+\c@mv@boldtabular=\count325
 (C:\Program Files\MiKTeX 2.9\tex/latex/upquote\upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
+LaTeX Info: Redefining \. on input line 47.
+LaTeX Info: Redefining \% on input line 47.
+\c@lstlisting=\count326
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 9
 4.
 
@@ -1002,7 +1092,15 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 94.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6.2> on input line 94.
- (reporteTemplate.bbl
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 118.
+
+Overfull \hbox (75.20181pt too wide) in paragraph at lines 120--121
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+Missing character: There is no ¹ in font lmsy9!
+(reporteTemplate.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 40.
 
@@ -1011,20 +1109,29 @@ File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 )
 (C:\Program Files\MiKTeX 2.9\tex/generic/stringenc\se-utf8.def
 File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
-) [1.1{C:/Users/XP/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+)
 
-] (reporteTemplate.aux)
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
+
+[1.1{C:/Users/XP/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+]
+(reporteTemplate.aux
+LaTeX Info: Redefining \. on input line 32.
+LaTeX Info: Redefining \% on input line 32.
+)
 Package rerunfilecheck Info: File `reporteTemplate.out' has not changed.
-(rerunfilecheck)             Checksum: A847B91D4D8A80AB3FEA2613252B4FEB;853.
+(rerunfilecheck)             Checksum: 14F03A0A752FD67F2D97D6A4755D5E35;858.
  ) 
 Here is how much of TeX's memory you used:
- 19431 strings out of 479323
- 293740 string characters out of 2864721
- 686056 words of memory out of 3000000
- 36196 multiletter control sequences out of 15000+200000
- 482457 words of font info for 139 fonts, out of 3000000 for 9000
+ 22294 strings out of 479323
+ 332430 string characters out of 2864721
+ 757590 words of memory out of 3000000
+ 38996 multiletter control sequences out of 15000+200000
+ 492505 words of font info for 153 fonts, out of 3000000 for 9000
  1302 hyphenation exceptions out of 8191
- 96i,11n,131p,854b,467s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 96i,11n,131p,854b,1046s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/
 MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/lm/lmb10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.
@@ -1034,9 +1141,9 @@ s/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/l
 mr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri7.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/lm/lmri8.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/lm/lmssbx10.pfb>
-Output written on reporteTemplate.pdf (1 page, 263661 bytes).
+Output written on reporteTemplate.pdf (1 page, 274413 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
- 38993 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 103 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
+ 41041 words of extra memory for PDF output out of 42996 (max. 10000000)
 

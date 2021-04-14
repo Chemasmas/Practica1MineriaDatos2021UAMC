@@ -23,7 +23,14 @@
 %%
 %% The first command in your LaTeX source must be the \documentclass command.
 \documentclass[sigconf]{acmart}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
 \usepackage{lmodern}
+\usepackage{tabularx}
+\usepackage{listings}
+
+
+
 
 %%
 %% \BibTeX command to typeset BibTeX logo in the docs
@@ -42,7 +49,7 @@
 %%
 %% The "title" command has an optional parameter,
 %% allowing the author to define a "short title" to be used in page headers.
-\title{Pr{\'a}ctica 1}
+\title{Práctica 1}
 
 %%
 %% The "author" command and its associated commands are used to define
@@ -51,19 +58,19 @@
 %% "authornote" and "authornotemark" commands
 %% used to denote shared contribution to the research.
 \author{Jorge Humberto Sierra Florido}
-\email{@cua.uam.mx}
-\affiliation{%
-  \institution{UAM Cuajimalpa \\ Ingenier{\'i}a en Computaci{\'o}n}
-  \city{Ciudad de M{\'e}xico}
-  \country{M{\'e}xico}
+\email{2123065656@cua.uam.mx}
+\affiliation{
+  \institution{UAM Cuajimalpa \\ Ingeniería en Computación}
+  \city{Ciudad de México}
+  \country{México}
 }
 
-\author{Mar{\'i}a de Jes{\'u}s S{\'a}nchez Zepeda}
+\author{María de Jesús Sánchez Zepeda}
 \email{2153068423@cua.uam.mx}
-\affiliation{%
-  \institution{UAM Cuajimalpa\\ Ingenier{\'i}a en Computaci{\'o}n}
-  \city{Ciudad de M{\'e}xico}
-  \country{M{\'e}xico}
+\affiliation{
+  \institution{UAM Cuajimalpa\\ Ingeniería en Computación}
+  \city{Ciudad de México}
+  \country{México}
 }
 
 
@@ -86,28 +93,70 @@
 %% information and builds the first part of the formatted document.
 \maketitle
 
-\section{Introducci{\'o}n
+\section{Introducción}
 
-En el análisis de datos es importante la limpieza de los datos previos a 
-realizar modelos predictivos con ellos. Con limpieza nos referimos al tratamiento de 
-los datos faltantes con el fin de no inducir un sesgo en el modelo.
+En el análisis de datos es importante la limpieza de los datos previos a realizar modelos predictivos con ellos. Con limpieza nos referimos al tratamiento de los datos faltantes con el fin de no inducir un sesgo en el modelo.
 
-Un método para encontrar relaciones entre varias variables de un conjunto de datos datos es
-la regresi{\'o}n l{\'i}neal.
+Un método para encontrar relaciones entre varias variables de un conjunto de datos datos es la regresión líneal.
 
-Se tienen dos conjuntos de datos de diferentes tamaños a los cuáles se les desea encontrar un modelo
-una ecuación que modele la relación entre variables determinadas.
+Se tienen dos conjuntos de datos de diferentes tamaños a los cuáles se les desea encontrar un modelo una ecuación que modele la relación entre variables determinadas.
 
 Para ello se limpiarán los datos de cada conjunto, se realizará una regresión lineal para posteriormente evaluar dicho modelo.
 Texto introductorio al tema en que se enfoca la pr{\'a}ctica y lo que se desarrollar{\'a} en ella. Se debe escribir un texto que introduzca el tema de la 
 pr{\'a}ctica, definici{\'o}n del problema, los objetivos, motivaci{\'o}n,  y resultados esperados.
+
 \section{Conceptos previos}
-Escribir conceptos te{\'o}ricos empleados en el desarrollo de la pr{\'a}ctica (f{\'o}rmulas matem{\'a}ticas, por ejemplo). Es un tipo de secci{\'o}n con todos los conceptos te{\'o}ricos empleados.
-\section{Metodolog{\'ia}}
-Describir la metodolog{\'i}a (todos los pasos) a emplear para desarrollar la pr{\'a}ctica. 
+
+%Escribir conceptos te{\'o}ricos empleados en el desarrollo de la pr{\'a}ctica (f{\'o}rmulas matem{\'a}ticas, por ejemplo). Es un tipo de secci{\'o}n con todos los conceptos te{\'o}ricos empleados.
+
+\section{Metodología}
+
+Se inicio la practica revisando los datasets proporcionados, estos corresponden a los datos de temperatura y salinidad medidas, así como las características de algunos vehículos. 
+
+El primer paso fue cargar los datos en R a fin de poder analizar los datasets. para esta carga se usaron las siguientes instrucciones:
+
+\begin{lstlisting}[caption=lectura de los datos]
+data = read.csv("water.csv", header=TRUE)
+data2 = read.table("mtcars.txt", header=TRUE , sep = " ")
+\end{lstlisting}
+
+Una vez cargada la información se procedió a obtener el resumen de la misma con la siguiente instrucción(\ref{tab:Tabla1})
+
+\begin{lstlisting}
+summary(data)
+\end{lstlisting}
+
+\begin{table}
+	\begin{tabularx}{\columnwidth}{|X|X|X|X|}
+		\hline
+		\multicolumn{2}{|c|}{ TdegC } & \multicolumn{2}{|c|}{ Salnty }  \\
+		\hline
+	Min. & 1.44  & Min. & 28.43 \\
+		\hline
+	1st Qu.& 7.68 &1st Qu.&33.49 \\
+		\hline
+	Median &10.06  & Median & 33.86   \\
+		\hline
+	Mean & 10.80 & Mean & 33.84\\
+		\hline
+	3rd Qu.&13.88 & 3rd Qu. & 34.20\\
+		\hline
+	Max. & 31.14 & Max.& 37.03  \\
+		\hline
+	NA's & 10963 & NA's  & 47354\\
+		\hline
+	\end{tabularx}
+	\caption{\label{tab:Tabla1}Resumen de el dataset water.csv}
+\end{table}
+
+En la cual podemos observar que existen varios registros vacíos, 10963 en el campo de temperatura y 47354 en la salinidad
+
 \section{Resultados}
+
 Describir con detalle todos los resultados. Hacer una discusi{\'o}n de lo obtenido. Se debe mostrar un enfoque anal{\'i}tico sobre los resultados generados. Mostrar absolutamente todos los productos obtenidos debido a los pasos mostrados en la metodolog{\'i}a.
+
 \section{Conclusiones y reflexiones}
+
 Conclusiones generales de la pr{\'a}ctica. A\~nadir una reflexi{\'o}n anal{\'i}tica por cada miembro del equipo.
 
 %%
