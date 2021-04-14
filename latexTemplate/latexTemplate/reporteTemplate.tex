@@ -73,20 +73,12 @@
   \country{México}
 }
 
-
-
-
-
-
 %%
 %% The abstract is a short summary of the work to be presented in the
 %% article.
 \begin{abstract}
   Aqu{\'i} va el abstract de la pr{\'a}ctica...
 \end{abstract}
-
-
-
 
 %%
 %% This command processes the author and affiliation and title
@@ -104,22 +96,31 @@ pr{\'a}ctica, definici{\'o}n del problema, los objetivos, motivaci{\'o}n,  y res
 
 \section{Conceptos previos}
 
-%Escribir conceptos te{\'o}ricos empleados en el desarrollo de la pr{\'a}ctica (f{\'o}rmulas matem{\'a}ticas, por ejemplo). Es un tipo de secci{\'o}n con todos los conceptos te{\'o}ricos empleados.
+Escribir conceptos te{\'o}ricos empleados en el desarrollo de la pr{\'a}ctica (f{\'o}rmulas matem{\'a}ticas, por ejemplo). Es un tipo de secci{\'o}n con todos los conceptos te{\'o}ricos empleados.
 
 \section{Metodología}
 
+Se analizaron los datasets usando el lenguaje de programación R\footnote{R es un lenguaje orientado a computo estadístico y de gráficas, \url{https://www.r-project.org/} } y el IDE R studio. a fin de generar los resúmenes estadísticos y gráficas requeridas, esto tras limpiarlos de información faltante.
+
+Posteriormente se procedió al análisis de la información usando Python, ayudándonos de Scikit-Learn , Pandas y Numpy.
+Se requirió investigar la función LinearRegression, para aplicarla a los datasets y generar los modelos
+
+Finalmente se evaluaran los modelos y se compararan la regresion lineal normal y la ponderada.
+
+\section{Resultados}
+
 Se inicio la practica revisando los datasets proporcionados, estos corresponden a los datos de temperatura y salinidad medidas, así como las características de algunos vehículos. 
 
-El primer paso fue cargar los datos en R a fin de poder analizar los datasets. para esta carga se usaron las siguientes instrucciones:
+El primer paso fue cargar los datos en R a fin de poder analizar los datasets. para esta carga se usaron las instrucciones del Código \ref{lst:cargaDatos}
 
-\begin{lstlisting}[caption=lectura de los datos]
+\begin{lstlisting}[caption=lectura de los datos,breaklines,label=lst:cargaDatos]
 data = read.csv("water.csv", header=TRUE)
 data2 = read.table("mtcars.txt", header=TRUE , sep = " ")
 \end{lstlisting}
 
-Una vez cargada la información se procedió a obtener el resumen de la misma con la siguiente instrucción(\ref{tab:Tabla1})
+Una vez cargada la información se procedió a obtener el resumen de la misma con la siguiente instrucción del Código \ref{lst:resumen1}, generando la salida mostrada en la Tabla \ref{tab:Tabla1}
 
-\begin{lstlisting}
+\begin{lstlisting}[caption=Resumen de los datos,breaklines,label=lst:resumen1]
 summary(data)
 \end{lstlisting}
 
@@ -128,29 +129,57 @@ summary(data)
 		\hline
 		\multicolumn{2}{|c|}{ TdegC } & \multicolumn{2}{|c|}{ Salnty }  \\
 		\hline
-	Min. & 1.44  & Min. & 28.43 \\
+		Min. & 1.44  & Min. & 28.43 \\
 		\hline
-	1st Qu.& 7.68 &1st Qu.&33.49 \\
+		1st Qu.& 7.68 &1st Qu.&33.49 \\
 		\hline
-	Median &10.06  & Median & 33.86   \\
+		Median &10.06  & Median & 33.86   \\
 		\hline
-	Mean & 10.80 & Mean & 33.84\\
+		Mean & 10.80 & Mean & 33.84\\
 		\hline
-	3rd Qu.&13.88 & 3rd Qu. & 34.20\\
+		3rd Qu.&13.88 & 3rd Qu. & 34.20\\
 		\hline
-	Max. & 31.14 & Max.& 37.03  \\
+		Max. & 31.14 & Max.& 37.03  \\
 		\hline
-	NA's & 10963 & NA's  & 47354\\
+		NA's & 10963 & NA's  & 47354\\
 		\hline
 	\end{tabularx}
 	\caption{\label{tab:Tabla1}Resumen de el dataset water.csv}
 \end{table}
 
-En la cual podemos observar que existen varios registros vacíos, 10963 en el campo de temperatura y 47354 en la salinidad
+En la Tabla \ref{tab:Tabla1} se observaron 10963 registros vacíos en el campo de temperatura y 47354 en la salinidad.
+Se eligió como alternativa dejar los elementos con campos NA, remplazándolos por su Mediana, esto para no afectar el dataset. Este remplazo se realizo usando el Código \ref{lst:remplazo1}
 
-\section{Resultados}
+\begin{lstlisting}[caption=Código de emplazo de los NA,breaklines,label=lst:remplazo1]
+	data$Salnty[is.na(data$Salnty)] = 33.86
+	data$TdegC[is.na(data$TdegC)] = 10.06
+\end{lstlisting}
 
-Describir con detalle todos los resultados. Hacer una discusi{\'o}n de lo obtenido. Se debe mostrar un enfoque anal{\'i}tico sobre los resultados generados. Mostrar absolutamente todos los productos obtenidos debido a los pasos mostrados en la metodolog{\'i}a.
+El nuevo resumen genero la Tabla \ref{label}. Donde se observan cambios mínimos.
+
+\begin{table}
+	\begin{tabularx}{\columnwidth}{|X|X|X|X|}
+		\hline
+		\multicolumn{2}{|c|}{ TdegC } & \multicolumn{2}{|c|}{ Salnty }  \\
+		\hline
+		Min. & 1.44  & Min. & 28.43 \\
+		\hline
+		1st Qu.& 7.72 &1st Qu.&33.50 \\
+		\hline
+		Median &10.06  & Median & 33.86   \\
+		\hline
+		Mean & 10.79 & Mean & 33.84\\
+		\hline
+		3rd Qu.&13.83 & 3rd Qu. & 34.18\\
+		\hline
+		Max. & 31.14 & Max.& 37.03  \\
+		\hline
+	\end{tabularx}
+	\caption{\label{tab:Tabla2}Resumen limpio de el dataset water.csv}
+\end{table}
+
+Respecto a los datos 
+
 
 \section{Conclusiones y reflexiones}
 
