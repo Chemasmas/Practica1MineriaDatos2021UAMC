@@ -6,9 +6,12 @@ from sklearn.model_selection import train_test_split
 from sklearn.model_selection import KFold
 from sklearn.model_selection._validation import cross_val_score
 
+dataDir = "data"
+filesDir = "textFiles"
+imgDir = "img"
+
 def validacionSimple():
-    water = pd.read_csv("data/salidaWater.csv")
-    # water = np.genfromtxt("data/salidaWater.csv", delimiter=",", skip_header=1,)
+    water = pd.read_csv(dataDir+"/salidaWaterClean.csv")
 
     # print(water)
     x = water["Salnty"].values
@@ -24,14 +27,14 @@ def validacionSimple():
     y_pred = model.predict(x_test.reshape(-1, 1))
 
     # Plot outputs
-    # plt.scatter(x_test, y_test, color='black')
-    # plt.plot(x_test, y_pred, color='blue', linewidth=3)
+    plt.scatter(x_test, y_test, color='black')
+    plt.scatter(x_test, y_pred, color='blue', linewidth=3)
 
     # plt.xticks(())
     # plt.yticks(())
 
     # plt.show()
-    # plt.savefig('validacionSimpleWater.png')
+    plt.savefig(imgDir+'/validacionSimpleWater.png')
     score = model.score(x_test.reshape(-1, 1),y_test)
     print("Accuracy: %.2f%%" % (score*100.0))
 
@@ -47,14 +50,16 @@ def validacionSimple():
     res2 = np.power(res, 2)
     res3 = res2.sum()
     res4 = res3 / len(res)
-    print(res)
-    print(res2)
-    print(res3)
+    # print(res)
+    # print(res2)
+    # print(res3)
+    # print("Accuracy: %.2f%%" % res4)
     print(res4)
 
 
+
 def NFold():
-    cars = pd.read_table("data/mtcars.txt", sep=" ")
+    cars = pd.read_table(dataDir+"/mtcars.txt", sep=" ")
     # print(cars)
     cars2 = cars.loc[:, ["hp", "wt", "disp"]]
     # print(cars2)
@@ -77,45 +82,43 @@ def NFold():
     # print("Accuracy: %.2f%%" % (resKFold * 100.0))
 
     i = 0
-    # for train_index,test_index in kf.split(x):
-    #     print("TRAIN:", train_index, "TEST:", test_index)
-    #     x_train = x.iloc[train_index]
-    #     x_test = x.iloc[test_index]
-    #     y_train = y[train_index]
-    #     y_test = y[test_index]
-    #
-    #     model = LinearRegression()
-    #     model.fit(x_train.values, y_train.values)
-    #
-    #
-    #
-    #     y_pred = model.predict(x_test)
-    #     plt.scatter(x_test[["wt"]].values, y_test, color='black')
-    #     plt.plot(x_test[["wt"]].values, y_pred, color='blue', linewidth=3)
-    #
-    #     # plt.xticks(())
-    #     # plt.yticks(())
-    #
-    #     # plt.show()
-    #     plt.savefig('nFold_WT_' + str(i) + '.png')
-    #     plt.clf()
-    #
-    #     plt.scatter(x_test[["disp"]].values, y_test, color='black')
-    #     plt.plot(x_test[["disp"]].values, y_pred, color='blue', linewidth=3)
-    #
-    #     # plt.xticks(())
-    #     # plt.yticks(())
-    #
-    #     # plt.show()
-    #     plt.savefig('nFold_DISP_' + str(i) + '.png')
-    #     plt.clf()
-    #
-    #     print(i)
-    #     print(x_test)
-    #     print(x_test[["wt"]])
-    #     print(x_test[["disp"]])
-    #     print(y_test)
-    #     i = i + 1
+    for train_index,test_index in kf.split(x):
+        print("TRAIN:", train_index, "TEST:", test_index)
+        x_train = x.iloc[train_index]
+        x_test = x.iloc[test_index]
+        y_train = y[train_index]
+        y_test = y[test_index]
+
+        model = LinearRegression()
+        model.fit(x_train.values, y_train.values)
+
+        y_pred = model.predict(x_test)
+        plt.scatter(x_test[["wt"]].values, y_test, color='black')
+        plt.plot(x_test[["wt"]].values, y_pred, color='blue', linewidth=3)
+
+        # plt.xticks(())
+        # plt.yticks(())
+
+        # plt.show()
+        plt.savefig('nFold_WT_' + str(i) + '.png')
+        plt.clf()
+
+        plt.scatter(x_test[["disp"]].values, y_test, color='black')
+        plt.plot(x_test[["disp"]].values, y_pred, color='blue', linewidth=3)
+
+        # plt.xticks(())
+        # plt.yticks(())
+
+        # plt.show()
+        plt.savefig('nFold_DISP_' + str(i) + '.png')
+        plt.clf()
+
+        print(i)
+        print(x_test)
+        print(x_test[["wt"]])
+        print(x_test[["disp"]])
+        print(y_test)
+        i = i + 1
 
 validacionSimple()
-NFold()
+# NFold()

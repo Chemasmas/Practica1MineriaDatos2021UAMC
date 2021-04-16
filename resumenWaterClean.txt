@@ -1,0 +1,8 @@
+"  ï..T_degC"	"    Salnty"	"    TdegC"
+""	"Min.   : 1.44  "	"Min.   :28.43  "	"Min.   :10.1  "
+""	"1st Qu.: 7.68  "	"1st Qu.:33.50  "	"1st Qu.:10.1  "
+""	"Median :10.06  "	"Median :33.86  "	"Median :10.1  "
+""	"Mean   :10.80  "	"Mean   :33.84  "	"Mean   :10.1  "
+""	"3rd Qu.:13.88  "	"3rd Qu.:34.18  "	"3rd Qu.:10.1  "
+""	"Max.   :31.14  "	"Max.   :37.03  "	"Max.   :10.1  "
+""	"NA's   :10963  "	NA	"NA's   :853900  "
